@@ -1,0 +1,13 @@
+name: MWGamemodes
+main: io.github.jaronz.mwgamemodes.MWGamemodes
+version: "1.0.0"
+api: ["1.0.0"]
+
+author: JaronZ
+description: Plugin to have a different gamemode for every world and player
+depend:
+  - JZLib
+permissions:
+  mwgamemodes.command.gamemode:
+    description: "Permission to use /worldgamemode"
+    default: op
